@@ -1,0 +1,19 @@
+<ion-view view-title="Builds">
+  <ion-nav-buttons side="right" ng-show="true">
+    <button ng-controller="BuildsCtrl" class="button button-icon button-clear ion-refresh" ng-click="refresh()">
+    </button>
+  </ion-nav-buttons>
+  <ion-content>
+    <ion-list id="builds">
+      <ion-item class="build-item dark" ng-repeat="build in builds" href="#/app/builds/{{build.title}}" ng-click="showData(build.title, build.desc)">
+        {{build.title}}
+        <ion-option-button class="button-assertive" ng-click="builds.splice($index, 1); refresh()">
+      		Delete
+      	</ion-option-button>
+      </ion-item>
+    </ion-list>
+    <button class="btn" ng-click="showPopup()">
+      <i class="ion-plus"></i>
+    </button>
+  </ion-content>
+</ion-view>

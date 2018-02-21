@@ -1,0 +1,11 @@
+<ion-view view-title="{{parts[5].title}}">
+  <ion-content>
+    <div class="card">
+        <ion-item ng-click="addPart(case.name, case.price); updatePart(5, case.name)" class="build-item dark" ng-repeat="case in cases">
+          <img ng-src="img/{{case.path}}.jpg" class="part-img"/>
+          <div>{{case.name}}</div>
+          <div class="badge badge-positive" style="margin-left: 20px;">${{case.price}}</div>
+        </ion-item>
+    </div>
+  </ion-content>
+</ion-view>

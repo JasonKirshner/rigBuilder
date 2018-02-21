@@ -1,0 +1,61 @@
+/* Empty. Add your own CSS if you like */
+.btn {
+  border-radius: 100%;
+  background-color: #387ef5;
+  border: 17px solid #387ef5;
+  z-index: 2;
+  left: 275px;
+  position: fixed;
+  top: 490px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0,0.5);
+}
+
+.build-item {
+  white-space: nowrap;
+  background-color: #CAC9C9;
+}
+
+.build-item div {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.part-remove {
+  margin-right: 20px;
+  float: left;
+}
+
+.part-add {
+  background-color: #387ef5;
+  border-radius: 10%;
+  padding: 10px;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.ion-android-remove-circle {
+  font-size: 40px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.center-div {
+  margin-left: 75px;
+}
+
+.center-btn {
+  margin-left: 115px;
+}
+
+.part-img {
+  height: 50px;
+  width: 50px;
+}
+
+.ion-android-remove-circle {
+  width: 100px;
+  height: 100px;
+  color: #ef473a;
+}

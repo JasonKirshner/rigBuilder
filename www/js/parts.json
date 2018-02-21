@@ -1,0 +1,472 @@
+{
+  "intelCpu": [
+    {
+      "title": "LGA 1150",
+      "lga1150": [
+        {
+          "name": "Intel i7 4770k",
+          "price": "419.99",
+          "path": "01150"
+        },
+        {
+          "name": "Intel i7 4790k",
+          "price": "384.81",
+          "path": "01150"
+        },
+        {
+          "name": "Intel i5 4690k",
+          "price": "265.05",
+          "path": "11150"
+        },
+        {
+          "name": "Intel i5 4670k",
+          "price": "299.95",
+          "path": "11150"
+        },
+        {
+          "name": "Intel i3 4370",
+          "price": "163.47",
+          "path": "11150"
+        }
+      ]
+    },
+    {
+      "title": "LGA 1151",
+      "lga1151": [
+        {
+          "name": "Intel i3 7350k",
+          "price": "149.99",
+          "path": "21150"
+        },
+        {
+          "name": "Intel i7 7700k",
+          "price": "328.47",
+          "path": "01150"
+        },
+        {
+          "name": "Intel i7 6700k",
+          "price": "305.06",
+          "path": "01150"
+        },
+        {
+          "name": "Intel i5 7600k",
+          "price": "228.79",
+          "path": "11150"
+        },
+        {
+          "name": "Intel i5 6600k",
+          "price": "219.99",
+          "path": "11150"
+        }
+      ]
+    },
+    {
+      "title": "LGA 2011",
+      "lga2011": [
+        {
+          "name": "Intel i7 4960X",
+          "price": "1903.30",
+          "path": "01150"
+        },
+        {
+          "name": "Intel Xeon E5-1660 V2",
+          "price": "1129.90",
+          "path": "31150"
+        },
+        {
+          "name": "Intel i7 4820k",
+          "price": "399.00",
+          "path": "01150"
+        },
+        {
+          "name": "Intel i7 4930k",
+          "price": "663.35",
+          "path": "01150"
+        }
+      ]
+    }
+  ],
+  "amdCpu": [
+    {
+      "title": "AM3+",
+      "am3": [
+        {
+          "name": "AMD FX-9590",
+          "price": "159.99",
+          "path": "0am3"
+        },
+        {
+          "name": "AMD FX-9370",
+          "price": "149.99",
+          "path": "0am3"
+        },
+        {
+          "name": "AMD FX-8370",
+          "price": "149.99",
+          "path": "0am3"
+        },
+        {
+          "name": "AMD FX-8350",
+          "price": "139.99",
+          "path": "0am3"
+        }
+      ]
+    },
+    {
+      "title": "AM4",
+      "am4": [
+        {
+          "name": "AMD RYZEN 7 1800X",
+          "price": "489.99",
+          "path": "am4"
+        },
+        {
+          "name": "AMD RYZEN 7 1700X",
+          "price": "389.99",
+          "path": "am4"
+        },
+        {
+          "name": "AMD RYZEN 5 1600X",
+          "price": "249.99",
+          "path": "am4"
+        },
+        {
+          "name": "AMD RYZEN 5 1500X",
+          "price": "189.99",
+          "path": "am4"
+        }
+      ]
+    }
+  ],
+  "mobo": [
+    {
+      "lga1150": [
+        {
+          "name": "ASRock Fatal1ty Gaming",
+          "price": "104.99",
+          "path": "fatal1ty"
+        },
+        {
+          "name": "ASUS Z97-A",
+          "price": "149.99",
+          "path": "z97-a"
+        },
+        {
+          "name": "ASUS Z97-E",
+          "price": "205.98",
+          "path": "z97-e"
+        },
+        {
+          "name": "GIGABYTE G1 Gaming GA-Z97X-Gaming 5",
+          "price": "205.98",
+          "path": "z97-e"
+        }
+      ],
+      "lga1151": [
+        {
+          "name": "MSI Z270-A PRO",
+          "price": "114.99",
+          "path": "270-a"
+        },
+        {
+          "name": "ASUS ROG STRIX Z270E",
+          "price": "199.99",
+          "path": "270e"
+        },
+        {
+          "name": "ASUS ROG STRIX Z270I",
+          "price": "179.99",
+          "path": "270i"
+        },
+        {
+          "name": "MSI Z170A GAMING M5",
+          "price": "179.99",
+          "path": "z170a"
+        }
+      ],
+      "lga2011": [
+        {
+          "name": "ASUS X99-E-10G",
+          "price": "742.00",
+          "path": "x99e"
+        },
+        {
+          "name": "MSI X99A GodLike",
+          "price": "579.99",
+          "path": "x99a"
+        },
+        {
+          "name": "ASUS ROG RAMPAGE V",
+          "price": "399.99",
+          "path": "rampage"
+        },
+        {
+          "name": "ASUS ROG STRIX X99",
+          "price": "319.99",
+          "path": "strix"
+        }
+      ],
+      "am3": [
+        {
+          "name": "ASUS M5A99FX PRO",
+          "price": "339.89",
+          "path": "5a99"
+        },
+        {
+          "name": "GIGABYTE GA-990FX-Gaming",
+          "price": "170.99",
+          "path": "990"
+        },
+        {
+          "name": "MSI 970A SLI Krait Edition",
+          "price": "113.98",
+          "path": "970a"
+        },
+        {
+          "name": "ASUS TUF SABERTOOTH 990FX",
+          "price": "210.01",
+          "path": "tuf"
+        }
+      ],
+      "am4": [
+        {
+          "name": "MSI X370 GAMING PRO",
+          "price": "179.99",
+          "path": "x370"
+        },
+        {
+          "name": "ASUS ROG Crosshair VI Hero",
+          "price": "254.99",
+          "path": "hero"
+        }
+      ]
+    }
+  ],
+  "cpuCooler": [
+    {
+      "lga1150": [
+        {
+          "name": "MasterAir Maker 8",
+          "price": "114.99",
+          "path": "maker8"
+        },
+        {
+          "name": "Noctua NH-U9S",
+          "price": "58.35",
+          "path": "nh-u9s"
+        },
+        {
+          "name": "Noctua NH-U14S",
+          "price": "68.55",
+          "path": "z97-e"
+        },
+        {
+          "name": "Thermaltake Riing",
+          "price": "39.99",
+          "path": "riing"
+        }
+      ],
+      "lga1151": [
+        {
+          "name": "CRYORIG H7",
+          "price": "34.99",
+          "path": "h7"
+        },
+        {
+          "name": "COOLER MASTER RR-212X-20PM-R1",
+          "price": "39.99",
+          "path": "212x"
+        }
+      ],
+      "lga2011": [
+        {
+          "name": "ARCTIC Freezer i30",
+          "price": "89.99",
+          "path": "i30"
+        },
+        {
+          "name": "Noctua NH-D15",
+          "price": "88.15",
+          "path": "dh-15"
+        },
+        {
+          "name": "Noctua NH-U9S",
+          "price": "58.35",
+          "path": "nh-u9s"
+        },
+        {
+          "name": "Thermaltake CL-P021",
+          "price": "59.99",
+          "path": "p021"
+        }
+      ],
+      "am3": [
+        {
+          "name": "PC Cooler S98",
+          "price": "24.49",
+          "path": "s98"
+        },
+        {
+          "name": "ARCTIC Freezer A11",
+          "price": "22.49",
+          "path": "a11"
+        }
+      ],
+      "am4": [
+        {
+          "name": "Cooler Master Hyper 212X",
+          "price": "44.99",
+          "path": "212x"
+        },
+        {
+          "name": "ARCTIC Freezer A11",
+          "price": "22.49",
+          "path": "a11"
+        }
+      ]
+    }
+  ],
+  "memory": [
+    {
+      "name": "HyperX FURY 8GB DDR3",
+      "price": "129.99",
+      "path": "fury"
+    },
+    {
+      "name": "Crucial Ballistix 8GB DDR3",
+      "price": "109.89",
+      "path": "ballistix"
+    },
+    {
+      "name": "Crucial Ballistix 8GB DDR3",
+      "price": "109.89",
+      "path": "ballistix"
+    },
+    {
+      "name": "Corsair Memory Ram 8GB DDR3 ",
+      "price": "108.00",
+      "path": "vengeance"
+    },
+    {
+      "name": "G.SKILL Ripjaws V Series",
+      "price": "113.99",
+      "path": "jaws"
+    },
+    {
+      "name": "G.SKILL TridentZ RGB Series",
+      "price": "159.99",
+      "path": "trident"
+    }
+  ],
+  "video": [
+    {
+      "name": "MSI GeForce GTX 1080 Ti",
+      "price": "909.99",
+      "path": "msi1080ti"
+    },
+    {
+      "name": "MSI GeForce GTX 1080 Ti",
+      "price": "909.99",
+      "path": "msi1080ti"
+    },
+    {
+      "name": "ASUS ROG GeForce GTX 1080 Ti",
+      "price": "789.55",
+      "path": "rog1080ti"
+    },
+    {
+      "name": "ZOTAC GeForce GTX 1080 AMP!",
+      "price": "574.99",
+      "path": "amp1080"
+    },
+    {
+      "name": "MSI GeForce GTX 1060",
+      "price": "623.77",
+      "path": "msi1060"
+    },
+    {
+      "name": "MSI GeForce GTX 1070",
+      "price": "599.77",
+      "path": "msi1070"
+    },
+    {
+      "name": "MSI GeForce GTX 1070",
+      "price": "599.77",
+      "path": "msi1070"
+    },
+    {
+      "name": "EVGA GeForce GTX 1060",
+      "price": "299.99",
+      "path": "evga1060"
+    },
+    {
+      "name": "PNY GeForce GTX 1050 Ti",
+      "price": "172.35",
+      "path": "pny1050ti"
+    },
+    {
+      "name": "GIGABYTE GeForce GTX 1050",
+      "price": "129.99",
+      "path": "gig1050"
+    }
+  ],
+  "cases": [
+    {
+      "name": "Corsair Crystal Series 570X",
+      "price": "179.99",
+      "path": "crystal"
+    },
+    {
+      "name": "Phanteks Eclipse P400",
+      "price": "69.99",
+      "path": "phan"
+    },
+    {
+      "name": "CASE ROSEWILL GAMING ATX Mid Tower",
+      "price": "49.99",
+      "path": "rose"
+    },
+    {
+      "name": "MasterBox 5t",
+      "price": "89.99",
+      "path": "masterbox"
+    },
+    {
+      "name": "Corsair Obsidian Series 750D",
+      "price": "149.99",
+      "path": "750d"
+    }
+  ],
+  "psu": [
+    {
+      "name": "EVGA SuperNOVA 1000 P2",
+      "price": "189.99",
+      "path": "novap2"
+    },
+    {
+      "name": "EVGA SuperNOVA 650 G1",
+      "price": "89.99",
+      "path": "evgag1"
+    },
+    {
+      "name": "CORSAIR AX Series AX760 760W",
+      "price": "157.99",
+      "path": "ax760"
+    },
+    {
+      "name": "CORSAIR HXi Series HX750i",
+      "price": "149.99",
+      "path": "hx750i"
+    },
+    {
+      "name": "CORSAIR SF Series SF600",
+      "price": "119.99",
+      "path": "sf600"
+    },
+    {
+      "name": "CORSAIR RMx Series RM750X",
+      "price": "109.99",
+      "path": "750x"
+    }
+  ]
+}

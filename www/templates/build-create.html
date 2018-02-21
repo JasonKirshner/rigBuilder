@@ -1,0 +1,37 @@
+<ion-view view-title="Build Creation">
+  <ion-nav-buttons side="right" ng-show="true">
+    <button ng-controller="BuildsCtrl" class="button button-icon button-clear ion-archive" ng-click="addBuild()">
+    </button>
+  </ion-nav-buttons>
+  <ion-content>
+    <h3 class="center-text">CPU</h3>
+    <div class="button-bar center-div">
+      <ion-radio ng-click="chooseCpu(1)">Intel</ion-radio>
+      <ion-radio ng-click="chooseCpu(2)">AMD</ion-radio>
+    </div>
+    <h3 class="center-text">Socket Type</h3>
+    <button class="button center-btn" ng-click="openPopover($event)">Choose A Socket</button>
+    <script id = "build-create.html" type = "text/ng-template">
+     <ion-popover-view>
+        <ion-header-bar>
+           <h1 class = "title">Socket Types</h1>
+        </ion-header-bar>
+        <ion-content>
+          <ion-item class="calm" ng-repeat="socket in sockets" ng-click="socketSelect(socket)">
+            {{socket.title}}
+          </ion-item>
+        </ion-content>
+     </ion-popover-view>
+   </script>
+   <br>
+   <br>
+   <div class="card">
+       <ion-item class="build-item dark" ng-repeat="part in parts">
+         <a ng-click="removePart(part.title, part.id)" class="part-remove">
+           <i class="ion-android-remove-circle"></i>
+         </a>
+         <a ng-href="#/app/build-create/{{part.id}}" class="part-add dark"><span style="color: white" id="p{{part.id}}">Add {{part.title}}</span></a>
+       </ion-item>
+   </div>
+ </ion-content>
+</ion-view>
